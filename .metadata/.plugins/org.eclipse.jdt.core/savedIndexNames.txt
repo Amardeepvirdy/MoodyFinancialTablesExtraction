@@ -1,0 +1,12 @@
+INDEX VERSION 1.130+/home/sourav/Documents/Finance/MoodyFinancialTablesExtraction/.metadata/.plugins/org.eclipse.jdt.core
+1492766893.index
+3841448910.index
+1005908177.index
+475310750.index
+3444530176.index
+1074196626.index
+3223966426.index
+3774070447.index
+505600824.index
+1267926998.index
+32378741.index
