@@ -11,14 +11,14 @@ class BuildExcel {
 	BuildExcel(String excelFilePath){
 		// Create excel workbook and sheet
 		 workbook = new XSSFWorkbook();
-		 sheet = workbook.createSheet("Moody_1980");
+		 sheet = workbook.createSheet("General_Obligations_1988JulOct");
 		 this.excelFilePath = excelFilePath;
 		 addColumnNames();
 	}
 	// Add Row data
 	public void addRow(Data data){
 		 
-		 Row row = sheet.createRow(rowCount++);
+		 Row row = sheet.createRow(++rowCount);
 		 row.setHeightInPoints((5*sheet.getDefaultRowHeightInPoints()));
 	     addCells(data, row);
 	        
